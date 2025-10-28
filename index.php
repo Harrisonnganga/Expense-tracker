@@ -26,6 +26,12 @@ $routes = [
     '/login' => 'AuthController@login',
     '/logout' => 'AuthController@logout', 
     '/dashboard' => 'DashboardController@index',
+    '/expenses' => 'ExpenseController@index',
+    '/expenses/add' => 'ExpenseController@add',
+    '/reports' => 'ReportController@index',
+    '/profile' => 'ProfileController@index',
+    '/setup' => 'SetupController@index',
+    '/test-db' => 'TestController@database',
     '/setup' => 'SetupController@index',
     '/test-db' => 'TestController@database'
 ];
