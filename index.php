@@ -14,6 +14,7 @@ spl_autoload_register(function ($className) {
 
 // Load configuration
 require_once 'config/paths.php';
+require_once 'config/helpers.php'; 
 require_once 'config/DB.php';
 
 // Simple routing
@@ -24,6 +25,7 @@ $path = rtrim($path, '/');
 $routes = [
     '/' => 'HomeController@index',
     '/login' => 'AuthController@login',
+    '/register' => 'RegisterController@index',
     '/logout' => 'AuthController@logout', 
     '/dashboard' => 'DashboardController@index',
     '/expenses' => 'ExpenseController@index',

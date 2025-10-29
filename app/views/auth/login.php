@@ -35,8 +35,15 @@
                         </div>
                         <button type="submit" class="btn btn-primary btn-block">Login</button>
                     </form>
-                    
-                    <hr>
+                    <!-- Add these links after the login form -->
+                            <div class="text-center mt-3">
+                                <a href="/forgot-password">Forgot Password?</a>
+                            </div>
+
+                            <div class="text-center mt-3">
+                                <p>Don't have an account? <a href="/register">Sign up here</a></p>
+                            </div>
+                                                <hr>
                     <p class="text-center small text-muted">
                         Use: test@test.com / password
                     </p>

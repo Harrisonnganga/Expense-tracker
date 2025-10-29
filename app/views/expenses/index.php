@@ -47,7 +47,7 @@
                                     <tr>
                                         <td><?php echo $expense['expense_date']; ?></td>
                                         <td><?php echo $expense['expense_item']; ?></td>
-                                        <td>$<?php echo number_format($expense['expense_cost'], 2); ?></td>
+                                        <td>Ksh<?php echo format_kes($expense['expense_cost'], 2); ?></td>
                                         <td><?php echo $expense['note'] ?: '-'; ?></td>
                                         <td><?php echo date('M j, Y', strtotime($expense['created_at'])); ?></td>
                                     </tr>

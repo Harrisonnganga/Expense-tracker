@@ -42,7 +42,7 @@
                             </div>
                             
                             <div class="form-group">
-                                <label>Cost *</label>
+                                <label>Cost (Ksh) *</label>
                                 <input type="number" name="expense_cost" class="form-control" 
                                        value="<?php echo $_POST['expense_cost'] ?? ''; ?>" 
                                        placeholder="0.00" step="0.01" min="0" required>
