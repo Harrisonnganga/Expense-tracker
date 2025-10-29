@@ -5,7 +5,11 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.x-7952B3?logo=bootstrap)
 ![DDEV](https://img.shields.io/badge/DDEV-Local%20Development-FF6C37?logo=docker)
 
-A modern, feature-rich expense tracking application built with PHP and MySQL, designed to help Kenyans manage their personal finances effectively.
+A modern, feature-rich expense tracking application built with PHP and MySQL, designed to help you manage personal finances effectively.
+
+## 📸 Application Screenshot
+
+![Expense Tracker Interface](screenshot.png)
 
 ## ✨ Features
 
@@ -32,7 +36,6 @@ A modern, feature-rich expense tracking application built with PHP and MySQL, de
 - **User Profiles**: Personal information management
 - **Session Security**: Protected user sessions
 
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -46,47 +49,17 @@ A modern, feature-rich expense tracking application built with PHP and MySQL, de
    git clone https://github.com/Harrisonnganga/Expense-tracker.git
    cd expense-tracker
 
-   Start the development environment
+2. **Start the development environment**
+   ddev start
 
-bash
-ddev start
-Setup the database
+3. **Setup the database**
+      # Access MySQL and run setup
+         ddev mysql
+      # Then paste the SQL schema from database/schema.sql
 
-bash
-# Access MySQL and run setup
-ddev mysql
-Then paste the SQL schema from database/schema.sql
+4. **Access application**
+      ddev launch
 
-Access the application
-
-bash
-ddev launch
-Demo Credentials
-Email: testuser@gmail.com
-
-Password: Test@123
-
-🛠️ Tech Stack
-Backend
-PHP 8.2 - Server-side programming
-
-MySQL 8.4 - Database management
-
-MVC Architecture - Clean code organization
-
-Frontend
-Bootstrap 5 - Responsive UI framework
-
-JavaScript - Interactive features
-
-Chart.js - Data visualization
-
-Font Awesome - Icons
-
-Development
-DDEV - Local development environment
-
-Docker - Containerization
-
-Git - Version control
-
+### Demo Credentials
+   Email: testuser@gmail.com
+   Password: Test@123
