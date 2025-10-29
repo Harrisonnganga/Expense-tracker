@@ -43,10 +43,6 @@
                             <div class="text-center mt-3">
                                 <p>Don't have an account? <a href="/register">Sign up here</a></p>
                             </div>
-                                                <hr>
-                    <p class="text-center small text-muted">
-                        Use: test@test.com / password
-                    </p>
                 </div>
             </div>
         </div>

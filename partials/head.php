@@ -8,12 +8,13 @@
     <link href="<?php echo asset('css/font-awesome.min.css'); ?>" rel="stylesheet">
     <link href="<?php echo asset('css/datepicker3.css'); ?>" rel="stylesheet">
     <link href="<?php echo asset('css/styles.css'); ?>" rel="stylesheet">
-    <link href="<?php echo asset('css/custom.css'); ?>" rel="stylesheet">
+    <link href="<?php echo asset('public/css/custom.css'); ?>" rel="stylesheet">
     
     <!--Custom Font-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="<?php echo asset('js/html5shiv.js'); ?>"></script>
-    <script src="<?php echo asset('js/respond.min.js'); ?>"></script>
+    
+    <script src="<?php echo asset('public/js/custom.js'); ?>"></script>
     <![endif]-->
+    
 </head>
