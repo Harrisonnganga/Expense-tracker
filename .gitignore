@@ -45,4 +45,7 @@ storage/cache/
 *.cache
 
 # Session files
-storage/sessions/
+storage/sessions/*.asc
+my_private_key.asc
+my_public_key.asc
+database/backups/*.gpg
